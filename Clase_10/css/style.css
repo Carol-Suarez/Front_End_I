@@ -4,36 +4,50 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* caracteristicas header*/
+
 .superior {
     background-color: #1CD1B0;
     margin: 0;
     text-indent: 10px;
+    width: 1024px;
 }
 
 .inferior{
     background-color: #00669F;
     height: 101px;
-    margin: 0 0 10px 0;
     text-indent: 25px;
+    box-shadow: 0px 10px 7px rgba(0,0,0, 0.25);
+    width: 1024px;
+    margin: 0;
 }
 
 .ImagenFondo{
     background-image: url('../img/Fondo\ Batman.png');
     width: 300px;
     height: 193px;
+    left: 32px;
+    top: 291px;
     margin: 70px 0 0 30px;
 }
 
+/* Caracteristicas imagen Batman */
+
 .batman {
     border-radius: 50%;
-    margin: 0 0 0 30px;
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 122px;
+    top: 419px;
 }
 
 .contenido {
     width: 300px;
     height: 336px;
     left: 32px;
-    margin: 0px 0 0 30px;
+    top: 483px;
+    margin-left: 32px;
     background-color: #f3f3f3;
     text-align: justify;
 }
