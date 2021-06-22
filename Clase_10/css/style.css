@@ -1,0 +1,39 @@
+
+*{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.superior {
+    background-color: #1CD1B0;
+    margin: 0;
+    text-indent: 10px;
+}
+
+.inferior{
+    background-color: #00669F;
+    height: 101px;
+    margin: 0 0 10px 0;
+    text-indent: 25px;
+}
+
+.ImagenFondo{
+    background-image: url('../img/Fondo\ Batman.png');
+    width: 300px;
+    height: 193px;
+    margin: 70px 0 0 30px;
+}
+
+.batman {
+    border-radius: 50%;
+    margin: 0 0 0 30px;
+}
+
+.contenido {
+    width: 300px;
+    height: 336px;
+    left: 32px;
+    margin: 0px 0 0 30px;
+    background-color: #f3f3f3;
+    text-align: justify;
+}
