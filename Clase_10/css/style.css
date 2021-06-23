@@ -2,6 +2,7 @@
 *{
     
     font-family: 'Roboto', sans-serif;
+   
 }
 
 /* caracteristicas header*/
@@ -22,32 +23,60 @@
     margin: 0;
 }
 
+/* Lamina batman*/
+
 .ImagenFondo{
     background-image: url('../img/Fondo\ Batman.png');
     width: 300px;
     height: 193px;
     left: 32px;
-    top: 291px;
-    margin: 70px 0 0 30px;
+    top: 110px;
+    position: relative;
 }
 
 /* Caracteristicas imagen Batman */
 
 .batman {
     border-radius: 50%;
-    position: absolute;
-    width: 120px;
-    height: 118px;
-    left: 122px;
-    top: 419px;
 }
 
+/*Contenido imagen batman*/
+
 .contenido {
+    position: relative;
     width: 300px;
-    height: 336px;
+    height: 236px;
     left: 32px;
-    top: 483px;
-    margin-left: 32px;
+    top: -25px;
     background-color: #f3f3f3;
     text-align: justify;
+    
+}
+
+button{
+    background-color: #00669F;
+    color: white;
+    border: solid 3px #00669F;
+    
+}
+
+section {
+    display: inline;
+}
+
+footer{
+    background-color: #00669F;
+    width: 1024px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;}
+
+body{
+    height: 800px;
+}
+
+.secBatman {
+    position: relative;
+    
 }
