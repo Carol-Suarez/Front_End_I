@@ -2,6 +2,7 @@
 *{
     
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
    
 }
 
@@ -11,7 +12,7 @@
     background-color: #1CD1B0;
     margin: 0;
     text-indent: 10px;
-    width: 1024px;
+   
 }
 
 .inferior{
@@ -19,64 +20,68 @@
     height: 101px;
     text-indent: 25px;
     box-shadow: 0px 10px 7px rgba(0,0,0, 0.25);
-    width: 1024px;
     margin: 0;
 }
 
-/* Lamina batman*/
+/* Article Batman" */
 
-.ImagenFondo{
-    background-image: url('../img/Fondo\ Batman.png');
+.Batman{
+    position: relative;
+    margin: 100px 50px 0px 50px;
+}
+
+.ImagenFondo
+{
+    background-image: url("../img/Fondo\ Batman.png");
     width: 300px;
     height: 193px;
-    left: 32px;
-    top: 110px;
-    position: relative;
+    position: absolute;
 }
 
-/* Caracteristicas imagen Batman */
+.circulo
+{
+    background-image: url("../img/liga-justicia-batman-kO4H--1024x512@abc\ 1.png");
+    position: absolute;
+    border-radius: 100%;
+    width: 120px;
+    height: 118px;
+    top: 140px;
+    left: 80px;
+    z-index: 1;
 
-.batman {
-    border-radius: 50%;
 }
 
-/*Contenido imagen batman*/
-
-.contenido {
-    position: relative;
+.contenido{
+    position: absolute;
     width: 300px;
-    height: 236px;
-    left: 32px;
-    top: -25px;
-    background-color: #f3f3f3;
+    height: 336px;
+    top: 193px;
+    margin-top: 0;
     text-align: justify;
-    
+    background-color: #f3f3f3;
+    padding: 50px 20px;
 }
 
-button{
-    background-color: #00669F;
-    color: white;
-    border: solid 3px #00669F;
-    
-}
+.contenido h2{
+    text-align: center;
+    text-transform: uppercase;
+    top: 550px}
 
-section {
-    display: inline;
-}
+/* Footer     */
 
-footer{
-    background-color: #00669F;
-    width: 1024px;
-    height: 51px;
-    display: flex;
-    align-items: center;
-    text-align: center;}
-
-body{
-    height: 800px;
-}
-
-.secBatman {
+footer {
     position: relative;
-    
+    height: 51px;
+    top: 672px;
+    background-color: #00669f;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.Batman img {
+    z-index: 1;
+    position: relative;
+    left: 20px;
+    top: 20px;
 }
