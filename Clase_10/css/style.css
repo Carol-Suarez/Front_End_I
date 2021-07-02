@@ -7,6 +7,10 @@
 }
 
 /* caracteristicas header*/
+body{
+    height: 1000px;
+}
+
 
 .superior {
     background-color: #1CD1B0;
@@ -67,6 +71,24 @@
     text-transform: uppercase;
     top: 550px}
 
+.Batman img {
+        z-index: 1;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        
+    }
+
+button {
+        height: 28px;
+        width: 78px;
+        top: 450px;
+        left: 100px;
+        background-color: #00669f;
+        position: absolute;
+        z-index: 1;
+    }
+
 /* Footer     */
 
 footer {
@@ -76,12 +98,9 @@ footer {
     background-color: #00669f;
     text-align: center;
     font-weight: bold;
+    padding: 5px 0;
 
 }
 
-.Batman img {
-    z-index: 1;
-    position: relative;
-    left: 20px;
-    top: 20px;
-}
+
+
