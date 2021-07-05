@@ -96,7 +96,7 @@ i{
 .box2 h3{
     font-size: 24px;
     color: red;
-    position: relative;
+    position: absolute;
     top: 50px;
     left: 150px;
     width: 350px;
@@ -106,7 +106,7 @@ i{
     position: relative;
     font-size: 20px;
     top: 100px;
-    left: -160px;
+    left: 60px;
     width: 190px;
 }
 
@@ -114,7 +114,7 @@ i{
     position: relative;
     font-size: 16px;
     top: 150px;
-    left: -220px;
+    left: -100px;
     line-height: 25px;
 }
 
@@ -133,18 +133,19 @@ i{
     color: white;
     line-height: 30px;
     padding: 18px 0 0 20px;
+    position: relative;
 }
 
 .TextFooter{
+    position: absolute;
     font-size: 24px;
-    padding: 30px 10px 0px 0px;
+    left: 850px;
+    top: 70px;
+    
 }
 
-.TextFooter i{
-    position: absolute;
-    right: 50px;
-    bottom: 20px;
+.footer i{
+    top:50px;
+    left: 1000px;
     color: tomato;
-    font-size: 50px;
-
 }
