@@ -1,6 +1,8 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
+    border: 0;
 }
 
 body{
@@ -8,7 +10,7 @@ body{
 }
 
 .top{
-    width: 1024px;
+    width: 1090px;
     height: 100px;
     top: 10px;
     background-color: black;
@@ -50,18 +52,99 @@ i{
 }
 
 .container{
-    width: 1024px;
+    width: 1090px;
     height: 400px;
-    background-color: lawngreen;
     display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .box1{
     width: 490px;
     height: 350px;
-    background-image: url("../img/delivery.jpg")}
+    background-image: url("../img/delivery.jpg");
+    border-radius: 5%;
+    margin: 15px 0 0 30px;
+    display: flex;
+    position: relative;}
+
+.textoEnvios{
+    color: red;
+    position: absolute;
+    font-size: 24px;
+    left: 80px;
+    top:60px;
+}
+
+
+.textoEnvios span{
+    color: white;
+    
+}
+
+
 
 .box2{
     width: 490px;
     height: 350px;
-    background-color: lawngreen}
+    border-radius: 5%;
+    margin: 15px 0 0 0px;
+    display: flex;
+    position: relative;}
+
+.box2 h3{
+    font-size: 24px;
+    color: red;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    width: 350px;
+}
+
+.box2 h4{
+    position: relative;
+    font-size: 20px;
+    top: 100px;
+    left: -160px;
+    width: 190px;
+}
+
+.box2 ol {
+    position: relative;
+    font-size: 16px;
+    top: 150px;
+    left: -220px;
+    line-height: 25px;
+}
+
+.box2 img {
+    position: relative;
+    left: -50px;
+    bottom: -130px;
+    height: 129px;
+}
+
+.footer{
+    display: flex;
+    width: 1090px;
+    height: 150px;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    padding: 18px 0 0 20px;
+}
+
+.TextFooter{
+    font-size: 24px;
+    padding: 30px 10px 0px 0px;
+}
+
+.TextFooter i{
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    color: tomato;
+    font-size: 50px;
+
+}
