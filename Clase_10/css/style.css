@@ -3,20 +3,23 @@
     
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-   
+    border:0;
+    padding: 0;
+    margin: 0;   
 }
 
 /* caracteristicas header*/
 body{
     height: 1000px;
+    width: 900px;
 }
 
 
-.superior {
+.superior {    
     background-color: #1CD1B0;
     margin: 0;
     text-indent: 10px;
-   
+    width: 100%;
 }
 
 .inferior{
@@ -25,13 +28,21 @@ body{
     text-indent: 25px;
     box-shadow: 0px 10px 7px rgba(0,0,0, 0.25);
     margin: 0;
+    position: fixed;
+    width: 100%;
 }
 
 /* Article Batman" */
 
+article{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 100px;
+}
+
+
 .Batman{
     position: relative;
-    margin: 100px 50px 0px 50px;
 }
 
 .ImagenFondo
@@ -50,7 +61,7 @@ body{
     width: 120px;
     height: 118px;
     top: 140px;
-    left: 80px;
+    left: 85px;
     z-index: 1;
 
 }
@@ -63,21 +74,19 @@ body{
     margin-top: 0;
     text-align: justify;
     background-color: #f3f3f3;
-    padding: 50px 20px;
+    padding: 70px 20px;
 }
 
 .contenido h2{
     text-align: center;
     text-transform: uppercase;
-    top: 550px}
+    top: 550px;}
 
-.Batman img {
+img {
         z-index: 1;
         position: absolute;
         left: 20px;
-        top: 20px;
-        
-    }
+        top: 20px;}
 
 button {
         height: 28px;
@@ -87,7 +96,35 @@ button {
         background-color: #00669f;
         position: absolute;
         z-index: 1;
+        color: white;
     }
+
+
+.Harley{
+        position: relative;}
+
+.fondoHarley{
+        background-image: url("../img/Fondo\ Harley.png");
+        width: 300px;
+        height: 193px;
+        position: absolute;
+    }
+
+.circuloH{
+    background-image: url("../img/harley.png");
+    position: absolute;
+    border-radius: 100%;
+    width: 120px;
+    height: 118px;
+    top: 140px;
+    left: 85px;
+    z-index: 1;
+}
+
+.Batman2{
+    position: relative;
+}
+
 
 /* Footer     */
 
@@ -99,7 +136,7 @@ footer {
     text-align: center;
     font-weight: bold;
     padding: 5px 0;
-
+    width: 100%;
 }
 
 
