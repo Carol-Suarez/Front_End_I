@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.top{
+    width: 1024px;
+    height: 100px;
+    top: 10px;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+
+i{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    color: tomato;
+    font-size: 50px;
+
+}
+
+.TextHeader{
+    font-size: 24px;
+    padding: 30px 0 0 110px;
+}
+
+.T1{
+    color: green;
+}
+ .T2{
+     color: white;
+ }
+
+ .T3{
+     color: red;
+ }
+
+.menúnav ul{ 
+    color:white;
+    font-size: 19px;
+    display: flex;
+    padding: 35px 0px 0 400px;  
+    text-indent: 15px;
+}
+
+.container{
+    width: 1024px;
+    height: 400px;
+    background-color: lawngreen;
+    display: flex;
+}
+
+.box1{
+    width: 490px;
+    height: 350px;
+    background-image: url("../img/delivery.jpg")}
+
+.box2{
+    width: 490px;
+    height: 350px;
+    background-color: lawngreen}
