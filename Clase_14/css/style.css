@@ -9,10 +9,7 @@
 }
 
 /* caracteristicas header*/
-body{
-    height: 1000px;
-    width: 1000px;
-}
+
 
 
 .superior {    
@@ -20,7 +17,7 @@ body{
     background-color: #1CD1B0;
     margin: 0;
     text-indent: 10px;
-    width: 1350px;
+    width: 100%;
     font-size: 16px;
     
 }
@@ -32,17 +29,17 @@ body{
     text-indent: 25px;
     box-shadow: 0px 10px 7px rgba(0,0,0, 0.25);
     margin: 0;
-    width: 100%;
     font-size: 40px;
-    position: fixed;}
+    position: fixed;
+    width: 100%;}
 
 /* Article Batman" */
 
 section{
     display: flex;
-    justify-content: space-between;
-    margin: 200px 100px;
-    
+    justify-content: space-around;
+    margin: 200px 0;
+    width: 1000px;
 }
 
 
@@ -172,4 +169,9 @@ footer {
 }
 
 
+/* @media (max-width: 100px) {
+    section {
+        flex-direction: column;
+    }
+} */
 
