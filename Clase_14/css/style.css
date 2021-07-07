@@ -36,22 +36,34 @@
 
 /*----------------------------Main-------------------*/
 
+@media screen and (max-width: 600px) {
+    section {
+        flex-direction: column;
+    }
+}
 
 /*Caracteristicas Section*/
 
 section{
     
-    width: 1000px;
+    width: 1300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
+}
+
+article{
+
+    margin: 100px 0px 0px 80px;
+    
 }
 
 /* Article Batman" */
 
 .Batman{
     position: relative;
-    margin: 100px;
+    order: 1;
 }
 
 .ImagenFondo
@@ -117,7 +129,7 @@ button {
 
 .Harley{
         position: relative;
-        margin: 100px;}
+        order: 4;}
 
 .fondoHarley{
         background-image: url("../img/Fondo\ Harley.png");
@@ -141,7 +153,8 @@ button {
 
 .mujerMaravilla{
     position: relative;
-    margin: 100px;
+    order: 2;
+
 }
 
 .ImagenFondoMujer
@@ -170,7 +183,7 @@ button {
 
 .superman{
     position: relative;
-    margin: 100px;
+    order: 3;
 }
 
 .ImagenFondoSuperman
@@ -209,9 +222,5 @@ footer {
 }
 
 
-/* @media (max-width: 100px) {
-    section {
-        flex-direction: column;
-    }
-} */
+
 
