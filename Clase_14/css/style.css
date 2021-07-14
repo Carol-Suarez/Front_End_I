@@ -41,30 +41,25 @@
 
 section{
     
-    width: 1300px;
+    width: 100vwx;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 
 article{
 
-    margin: 100px 0px 0px 80px;
-    
-    
+    margin: 100px 80px 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
 }
 
 /* Article Batman" */
 
-.Batman{
-    position: relative;
-    order: 1;
-}
-
 .ImagenFondo
 {
-    background-image: url("../img/Fondo\ Batman.png");
     width: 300px;
     height: 193px;
     position: relative;
@@ -72,26 +67,38 @@ article{
 
 .circulo
 {
-    background-image: url(../img/liga-justicia-batman-kO4H--1024x512@abc\ 1.png);
     position: relative;
     border-radius: 100%;
     width: 120px;
     height: 118px;
-    top: -12%;
-    left: 30%;
+    top: -80px;
     z-index: 1;
-
 }
+
+.Batman{
+    position: relative;
+    order: 1;}
+
+.circulo.B
+{
+    background-image: url(../img/liga-justicia-batman-kO4H--1024x512@abc\ 1.png);
+}
+
+.ImagenFondo.B
+{
+    background-image: url("../img/Fondo\ Batman.png");
+    
+}
+
 
 
 .contenido{
     position: relative;
     width: 300px;
     height: 356px;
-    margin-top: 0;
     text-align: justify;
     background-color: #f3f3f3;
-    top: -20%
+    top: -120px;
 }
 
 .contenido h2{
@@ -106,15 +113,15 @@ article{
 
 img {
         z-index: 1;
-        position: absolute;
-        left: 13%;
-        top: 5%;}
+        position: relative;
+        left: 30px;
+        top:20px;}
+        
 
 button {
         height: 28px;
         width: 78px;
-        bottom: 30%;
-        left: 35%;
+        bottom: 180px;
         background-color: #00669f;
         position: relative;
         z-index: 1;
@@ -127,22 +134,13 @@ button {
         position: relative;
         order: 4;}
 
-.fondoHarley{
+.ImagenFondo.H{
         background-image: url("../img/Fondo\ Harley.png");
-        width: 300px;
-        height: 193px;
-        position: relative;
+        
     }
 
-.circuloH{
+.circulo.H{
     background-image: url("../img/harley.png");
-    position: relative;
-    border-radius: 100%;
-    width: 120px;
-    height: 118px;
-    top: -12%;
-    left: 30%;
-    z-index: 1;
 }
 /*Article Mujer Maravilla*/
 
@@ -153,55 +151,36 @@ button {
 
 }
 
-.ImagenFondoMujer
+.ImagenFondo.M
 {
     background-image: url("../img/Fondo\ Mujer\ Maravilla.png");
-    width: 300px;
-    height: 193px;
-    position: relative;
     border-radius: 10px 10px 0 0;
 }
 
-.circuloMujer{
+.circulo.M{
     background-image: url("../img/Mujer\ Maravilla.png");
     background-size: 120px 120px;
     background-repeat: no-repeat;
-    position: relative;
-    border-radius: 100%;
-    width: 120px;
-    height: 118px;
-    top: -12%;
-    left: 30%;
-    z-index: 1;   
+    
 }
-
 /*Article Superman*/
 
-.superman{
+.superman {
     position: relative;
     order: 3;
 }
 
-.ImagenFondoSuperman
+.ImagenFondo.S
 {
     background-image: url("../img/Fondo\ Superman.png");
-    width: 300px;
-    height: 193px;
-    position: relative;
     border-radius: 10px 10px 0 0;
 }
 
-.circuloSuperman{
+.circulo.S{
     background-image: url("../img/Superman.png");
     background-size: 120px 120px;
     background-repeat: no-repeat;
-    position: relative;
-    border-radius: 100%;
-    width: 120px;
-    height: 118px;
-    top: -12%;
-    left: 30%;
-    z-index: 1;     
+         
 }
 
 @media all and (max-width: 800px) {
