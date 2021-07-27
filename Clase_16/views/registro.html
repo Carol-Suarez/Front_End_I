@@ -14,9 +14,17 @@
     <header>
         <p class="superior">Descuentos 20%</p>
         <h2 class="inferior">Heroes</h2>
+        <nav class="navegacion">
+            <ul type="none">
+                <li> <a href="contacto.html"> Contacto </a></li>
+                <li> <a href="registro.html"> Registrarme </a></li>
+                <li> <a href="ingresar.html"> Ingresar </a></li>
+            </ul>
+
+        </nav>
     </header>
 
-    <main>
+    <main class="fRegistro">
         
         
         <form action="/registro" method="GET">
@@ -24,20 +32,19 @@
             <div class="formulario R">
                 <h2 class="tRegistro">Registro</h2>
                 <p>
-                    <label for="Nombre">Nombre: </label>
-                    <input type="text" name="Nombre" id="Nombre">
+
+                    <input type="text" id="Nombre" name="nombre" placeholder="Nombre"/>
+                
                 </p>
                 <p>
-                    <label for="email">Email: </label>
-                    <input type="email" name="Email" id="email">
+                    <input type="text" id="Email" name="Email" placeholder="Email"/>
                 </p>
                 <p>
-                    <label for="password">Password: </label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" id="Password" name="Password" placeholder="Password"/>
                 </p>
                 <p>
-                    <label>Selecciona tu pais</label>
-                    <select name="Pais">Pais
+                    
+                    <select name="Pais" >Pais
                         <option value="Colombia">Colombia</option>
                         <option value="Argentina">Argentina</option>
                         <option value="Brasil">Brasil</option>
@@ -45,13 +52,17 @@
                 </p>
                 
                 <div class="botones">
-                    <button type="reset">Resetear</button>
-                    <button type="submit"> Registrar</button>
+                    <button class="reset" type="reset">Resetear</button>
+                    <button class="registrar" type="submit"> Registrar</button>
                 </div>
-                    
+                <p class="tienesCuenta">¿Ya tienes una cuenta? <span> <a href="ingresar.html"> Ingresar </a> </span> </p>
                 
             </div>
         </form>
     </main>
+
+    <footer>
+        <p>Todos los derechos reservados FRONT END 1</p>
+    </footer>
 </body>
 </html>

@@ -210,38 +210,49 @@ button {
 /* ---------------------------------------------------------------
 Formulario registro */
 
-.tRegistro{
+.fRegistro{
     display: flex;
-    position: relative;
     justify-content: center;
-    right: 50px;
 }
+
 
 .formulario.R {
     margin-top: 120px; 
     width: 300px;
-    height: 300px;
+    height: 400px;
     display: flex; 
     flex-direction: column;  
     position: relative;
-    left: 45%;
+    justify-content: flex-start;
 }
+
 
 .formulario.R h2{
     position: relative;
     top: 0px;
     font-family: 'Inter', sans-serif;
     font-size: 52px;
-    padding-left: 50px;
     padding-bottom: 20px;
 }
 
-.formulario.R p {
+.formulario.R p input{
     border: solid black;
     height: 30px;
     margin-bottom: 10px;
     border-radius: 5px;
     border-width: thin;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.formulario.R p select{
+    border: solid black;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-width: thin;
+    padding-left: 5px;
 }
 
 input {
@@ -255,14 +266,61 @@ input {
     display: flex;
     position: relative;
     top: 200px;
-    justify-content: space-around;
+    justify-content: space-between;
     }
 
 .formulario.R .botones button{
-    border-radius: 13px;
-    width: 120px;
+    border-radius: 10px;
+    width: 140px;
 }
 
+.reset {
+    background-color: #888888;
+    color: white;
+    font-weight: bold;
+}
+
+button.registrar{
+    background: #1CD1B0;
+    font-weight: bold;
+}
+
+button.registrar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.tienesCuenta{
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+.tienesCuenta span a{
+    text-decoration: none;
+    color: rgba(11, 75, 117, 0.652);
+    }
+
+/* ---------------------------------------------------------------
+Formulario Login */
+.formulario.R .botones button.entrar{
+
+    background: #1CD1B0;
+    color: black;
+    font-weight: bold;
+    width: 400px;
+}
+
+/* ---------------------------------------------------------------
+Formulario Contacto */
+
+.textareaLogin{
+    width: 100%;
+    height: 70px;
+    border: solid black;   
+    border-width: thin;
+}
 
 /* -----------------------------Footer----------------*/
 
