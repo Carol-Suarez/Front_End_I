@@ -1,0 +1,281 @@
+
+*{
+
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    border:0;
+    padding: 0;
+    margin: 0;   
+}
+
+/* caracteristicas header*/
+
+
+
+.superior {    
+    background-color: #1CD1B0;
+    margin: 0;
+    text-indent: 10px;
+    width: 100%;
+    font-size: 16px;
+    
+}
+
+.inferior{
+    background-color: #00669F;
+    height: 101px;
+    text-indent: 25px;
+    box-shadow: 0px 10px 7px rgba(0,0,0, 0.25);
+    margin: 0;
+    font-size: 40px;
+    position: fixed;
+    width: 100%;
+    position: relative;}
+
+.navegacion{
+    height: 40px;
+    width: 100%;
+    background-color: #001D2D;
+    padding-right: 40px;
+    padding-top: 12px;
+}
+
+.navegacion ul{
+    display: flex;
+    justify-content:flex-end;
+    text-indent: 20px;        
+}
+
+.navegacion ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*----------------------------Main-------------------*/
+
+
+
+/*Caracteristicas Section*/
+
+section{
+    
+    width: 100vwx;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+article{
+
+    margin: 100px 80px 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+/* Article Batman" */
+
+.ImagenFondo
+{
+    width: 300px;
+    height: 193px;
+    position: relative;
+}
+
+.circulo
+{
+    position: relative;
+    border-radius: 100%;
+    width: 120px;
+    height: 118px;
+    top: -80px;
+    z-index: 1;
+}
+
+.Batman{
+    position: relative;
+    order: 1;}
+
+.circulo.B
+{
+    background-image: url(../img/liga-justicia-batman-kO4H--1024x512@abc\ 1.png);
+}
+
+.ImagenFondo.B
+{
+    background-image: url("../img/Fondo\ Batman.png");
+    
+}
+
+
+
+.contenido{
+    position: relative;
+    width: 300px;
+    height: 356px;
+    text-align: justify;
+    background-color: #f3f3f3;
+    top: -120px;
+}
+
+.contenido h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+.contenido p {
+    padding: 25px 15px;
+    font-size: 14px;
+}
+
+img {
+        z-index: 1;
+        position: relative;
+        left: 30px;
+        top:20px;}
+        
+
+button {
+        height: 28px;
+        width: 78px;
+        bottom: 180px;
+        background-color: #00669f;
+        position: relative;
+        z-index: 1;
+        color: white;
+    }
+
+/* Article Harley" */
+
+.Harley{
+        position: relative;
+        order: 4;}
+
+.ImagenFondo.H{
+        background-image: url("../img/Fondo\ Harley.png");
+        
+    }
+
+.circulo.H{
+    background-image: url("../img/harley.png");
+}
+/*Article Mujer Maravilla*/
+
+
+.mujerMaravilla{
+    position: relative;
+    order: 2;
+
+}
+
+.ImagenFondo.M
+{
+    background-image: url("../img/Fondo\ Mujer\ Maravilla.png");
+    border-radius: 10px 10px 0 0;
+}
+
+.circulo.M{
+    background-image: url("../img/Mujer\ Maravilla.png");
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    
+}
+/*Article Superman*/
+
+.superman {
+    position: relative;
+    order: 3;
+}
+
+.ImagenFondo.S
+{
+    background-image: url("../img/Fondo\ Superman.png");
+    border-radius: 10px 10px 0 0;
+}
+
+.circulo.S{
+    background-image: url("../img/Superman.png");
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+         
+}
+
+@media all and (max-width: 800px) {
+    section{
+        flex-direction: column;
+    }
+}
+/* ---------------------------------------------------------------
+Formulario registro */
+
+.tRegistro{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    right: 50px;
+}
+
+.formulario.R {
+    margin-top: 120px; 
+    width: 300px;
+    height: 300px;
+    display: flex; 
+    flex-direction: column;  
+    position: relative;
+    left: 45%;
+}
+
+.formulario.R h2{
+    position: relative;
+    top: 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 52px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.formulario.R p {
+    border: solid black;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+input {
+    border: solid black;
+    height: 20px;
+    border-style: none;
+}
+
+
+.formulario.R .botones {
+    display: flex;
+    position: relative;
+    top: 200px;
+    justify-content: space-around;
+    }
+
+.formulario.R .botones button{
+    border-radius: 13px;
+    width: 120px;
+}
+
+
+/* -----------------------------Footer----------------*/
+
+footer {
+    position: relative;
+    height: 51px;
+    background-color: #00669f;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0;
+    width: 100%;
+}
+
+
+
+
