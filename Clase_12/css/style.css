@@ -1,0 +1,65 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+</style>
+
+*{
+    box-sizing: border-box; /*Incluye el border, el padding y el margin en las dimensiones de la caja*/
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hleft{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 60px 0px 90px;
+    font-size: 18px; }
+    
+.hright{
+    color: white;
+    word-spacing: 30px; 
+    font-size: 18px;
+    }
+
+.hbottom{ background-color: #F0A83E;
+          padding: 15px 40px 0px 46px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 18px;
+}
+
+.hbottom nav ul {display: flex;
+                justify-content: space-around;
+                width: 400px;
+                color: white;
+                }
+                
+.mprincipal {
+            background-image:url(../img/bowl.png) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 459px;
+            position: relative;}
+
+.mprincipal span{
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+    left: 1255px;
+}
+
+.mprincipal h2{
+    
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 25px;
+    left: 1305px;
+
+
