@@ -322,6 +322,80 @@ Formulario Contacto */
     border-width: thin;
 }
 
+/* ---------------------------------------------------------------
+Home*/
+
+.home{
+    width: 100%;
+    height: 637px;
+    background-image: url("../img/Fondo\ Home.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.harleyHome{
+    width: 406px;
+    height: 466px;
+    background-color: white;
+    border-radius: 15px;
+    font-family:'Roboto', sans-serif;
+    text-align: justify;   
+
+}
+
+.harleyHome h3{
+    color: #2C0187;
+    font-size: 20px;
+    text-align: center;
+    text-decoration:underline; 
+    padding-top: 70px;
+
+} 
+.harleyHome p{
+    padding: 25px;
+}
+
+
+.harleyHome h3 p,span{
+    color: #2C0187;}
+
+.home .harleyHome .volver{
+    background-color: #2C0187;
+    width: 100%;
+    height: 50px;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+    top: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.volver a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.iHarley {
+    background-image: url("../img/harley.png");
+    border-radius: 50px;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 46%;
+    top: 28%;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 45px;
+    padding-bottom: 25px;
+}
+
+
 /* -----------------------------Footer----------------*/
 
 footer {
